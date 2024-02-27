@@ -1,38 +1,153 @@
-.App {
+.top {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.top img {
+  margin: 0 auto;
+  height: 5rem;
+  width: 22rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.award {
+  display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.award .left-award img {
+  height: 34rem;
+  width: 26rem;
+}
+
+.right-award {
+  margin-left: 39px;
+}
+
+.award .right-award img {
+  height: 18rem;
+  width: 54rem;
+}
+
+.right-award ul li {
+  font-size: 17px;
+}
+
+p {
+  font-size: 15.3px;
+}
+
+.pumpsets {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.pumpsets img {
+  height: 17rem;
+  width: 70rem;
+
+}
+
+.horizontal-line {
+  width: 100%;
+  height: 2px;
+  background-color: red;
+}
+
+.vertical-line {
+  display: inline-block;
+  border-left: 1px solid red;
+  height: 1em;
+  margin: 0 0.5em;
+}
+
+.foot {
+  background-color: red;
+  height: 5rem;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.foot-icons {
+  display: flex;
+  justify-content: space-around;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.foot-icons span {
+  margin-top: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  .top img {
+    height: auto;
+    width: 80%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .award {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .award .left-award img {
+    height: auto;
+    width: 100%;
+  }
+
+  .award .right-award img {
+    height: auto;
+    width: 100%;
+  }
+
+  .pumpsets img {
+    height: auto;
+    width: 100%;
+  }
+
+  .pumpsets p {
+    text-align: center;
+  }
+
+  .pumpsets h5 {
+    font-size: 12px;
+  }
+
+  .foot {
+    height: auto;
+    width: auto;
+  }
+
+  .foot-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1325px) {
+  .top {
+    text-align: center;
+  }
+
+  .top img {
+    margin: 0 auto;
+    height: 5rem;
+    width: 22rem;
+  }
+
+  .foot {
+    width: 100%;
+    height: auto;
+  }
+
+  .pumpsets p {
+    text-align: center;
+  }
+
+  .foot-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
