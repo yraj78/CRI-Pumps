@@ -78,8 +78,8 @@ const Home = () => {
             <footer className='foot'>
                 <div className='foot-icons' >
                    <span> <FontAwesomeIcon icon={faPhone} />  Toll free 1800 200 1234</span>
-                   <span><FontAwesomeIcon icon={faFacebook} />  www.facebook.com/cripumps</span>
-                   <span> <FontAwesomeIcon icon={faGlobe} />  www.crigroups.com</span>
+                    <span><FontAwesomeIcon icon={faFacebook} /> <a href='www.facebook.com/cripumps'>www.facebook.com/cripumps</a> </span>
+                   <span> <FontAwesomeIcon icon={faGlobe} /> <a href='https://www.crigroups.com/'>www.crigroups.com</a> </span>
                 </div>
             </footer>
 
