@@ -76,6 +76,10 @@ p {
 .foot-icons span {
   margin-top: 2rem;
 }
+.foot-icons a{
+  text-decoration: none;
+  color: white;
+}
 
 
 /* Media queries for responsiveness */
