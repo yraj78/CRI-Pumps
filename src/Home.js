@@ -8,7 +8,9 @@ const Home = () => {
     return (
         <div>
             <header className='top'>
+               <a href='https://c-r-i-pumps.netlify.app/'>
                 <img src='logo.png' alt='logo' />
+                </a>
             </header>
 
             <div className='award'>
